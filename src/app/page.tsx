@@ -1,4 +1,4 @@
-import Hdmi from "./components/hdmi";
+import Hdmi from "./components/HdmiSwitch";
 
 export default function Home() {
 	return (
