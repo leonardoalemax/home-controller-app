@@ -1,0 +1,29 @@
+{
+	"areas": [
+		{
+			"name": "Switch Devices",
+			"actions": [
+				{
+					"title": "PlayStation",
+					"route": "http://home.alemax.lab/api/webhook/-5XipwKV0opCHqqMklauOMcwr1"
+				},
+				{
+					"title": "Nintendo Switch",
+					"route": "http://home.alemax.lab/api/webhook/-5XipwKV0opCHqqMklauOMcwr2"
+				},
+				{
+					"title": "Pc Gamer",
+					"route": "http://home.alemax.lab/api/webhook/-5XipwKV0opCHqqMklauOMcwr3"
+				},
+				{
+					"title": "MacOs",
+					"route": "http://home.alemax.lab/api/webhook/-5XipwKV0opCHqqMklauOMcwr5"
+				},
+				{
+					"title": "Linux",
+					"route": "http://home.alemax.lab/api/webhook/-5XipwKV0opCHqqMklauOMcwr4"
+				}
+			]
+		}
+	]
+}
