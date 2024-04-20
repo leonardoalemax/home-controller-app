@@ -6,11 +6,14 @@ export default function Areas() {
 	return (
 		<div className='flex flex-col p-4'>
 			{Actions.areas.map((area) => (
-				<div className='flex flex-col gap-4 justify-between whitespace-break-spaces'>
+				<div
+					key={area.name}
+					className='flex flex-col gap-4 justify-between whitespace-break-spaces'>
 					<h2>{area.name}</h2>
 					<div className='flex flex-col gap-4 justify-between'>
 						{area.actions.map((action) => (
 							<button
+								key={action.title}
 								className='btn btn-primary rounded'
 								onClick={() => {
 									fetch(action.route);
