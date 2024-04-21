@@ -4,9 +4,7 @@ name: base
 services:
     app:
         image: alemax-home-app
-        build:
-            target: dev
-            dockerfile: Dockerfile
+        build: ./
         volumes:
             - ./:/app
             - /app/node_modules
